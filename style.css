@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: absolute;
+    max-height: 400px;
+    width: 1349px;
+    position: fixed;
+}
+
+header img {
+    animation: encabezado 1s 1;
+    margin-top: 30px;
+    margin-left: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+nav {
+    width: 1550%;
+    min-height: 120px;
+    background: white;
+    position: fixed;
+    margin-top: -120px;
+}
+nav ul {
+    display: flex;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 57px;
+}
+nav li {
+    list-style: none;
+}
+nav a{
+    color:  grey;
+    text-decoration: none;
+    font-size: 12.5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ban {
+    background: white;
+    max-width: 1340px;
+    min-height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 120px;
+}
+#banner{
+    max-width: 1350px;
+    min-height: 550px;
+    margin: 0 auto;
+    animation: slider 25s infinite alternate ease-in-out;
+    margin-top: -55px;
+}
+
+#banner img {
+    width: 1340px;
+    height: 540px;
+    margin: 50px auto 0;
+}
+#banner ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+#banner li {
+    list-style: none;
+}
+
+.img-fondo p {
+    color: #ffffff;
+    font-size: 71px;
+    font-family: avenir-lt-w01_85-heavy1475544, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+    text-align: center;
+    width: 600px;
+    margin-left: 370px;
+    margin-top: -350px;
+    font-weight: 600;
+}
+.img-fondo article img {
+    margin-left: 650px;
+    width: 50px;
+    margin-top: 50px;
+}
+
+#nosotros{
+    width: 400px;
+    min-height: 500px;
+    background: rgb(112, 112, 112);
+    margin-top: 150px;
+    margin-left: 50px;
+    padding-top: 6px;
+}
+
+#nosotros h1 {
+    font-size: 30px;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 145px;
+}
+#nosotros p {
+    text-size-adjust: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    letter-spacing: 0.08em;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#img-nosotros {
+    margin-top: -506px;
+    margin-left: 500px;
+}
+#noso-1 {
+    margin-top: 20px;
+}
+#noso-2 {
+    margin-top: 5px;
+}
+
+#contenido-2{
+    margin-top: 150px;
+    background-color: rgb(235, 229, 229);
+    width: 1200px;
+    height: 900px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+#contenido-2-primer {
+    color: #CB333B;
+    letter-spacing: 25px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#contenido-2 p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family:  montserrat, sans-serif;
+    color:  rgb(51, 51, 51);
+    letter-spacing: 0.9px;
+}
+
+#contenido-2 img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+footer {
+    background: rgb(203, 51, 59);
+    padding: 50px;
+    padding-bottom: 90px;
+    position: absolute;
+    width: 92.6%;
+    height: 130px;
+}
+
+#texto-footer {
+    margin-left: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texto-footer p {
+    font-weight: bold;
+    font-size: 18px;
+}
+#texto-footer2 {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    margin-top: -140px;
+}
+#texto-footer2 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+#cuadro-footer {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: -160px;
+}
+#cuadro-footer input {
+    width: 250px;
+    height: 35px;
+    border: rgb(236, 60, 69) solid;
+    outline: none;
+}
+
+#cuadro-footer button {
+    width: 255px;
+    height: 40px;
+    margin-top: 10px;
+    background: none;
+    color: white;
+    border: black solid;
+    padding: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+#redes-sociales {
+    margin-left: 975px;
+    margin-top: -40px;
+}
+#redes-sociales img {
+    width: 20px;
+    padding: 10px;
+}
+
+
+
+@keyframes encabezado {
+    0% {
+        transform: translateY(-90px);
+    }
+}
+/*Slider*/
+@keyframes slider {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
+/*Slider*/

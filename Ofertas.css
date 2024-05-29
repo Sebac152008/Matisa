@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    animation: encabezado 1s 1;
+    margin-top: 30px;
+    margin-left: 60px;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+nav {
+    width: 1550%;
+    min-height: 120px;
+    background: white;
+    position: fixed;
+    margin-top: -100px;
+}
+nav ul {
+    display: flex;
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -25px;
+}
+nav li {
+    list-style: none;
+}
+nav a{
+    color:  grey;
+    text-decoration: none;
+    font-size: 12.5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*C O N T E N I D O*/
+
+body {
+    background: rgb(231, 230, 230);
+}
+.titulo {
+    width: 340px;
+    height: 620px;
+    background: rgb(128, 128, 128);
+    margin-top: 100px;
+    color: white;
+}
+.titulo p {
+    text-align: center;
+    padding-top: 170px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.imagen-contenedor {
+    margin-left: 500px;
+    margin-top: -550px;
+}
+/*C O N T E N I D O*/
+footer {
+    background: rgb(203, 51, 59);
+    padding: 50px;
+    padding-bottom: 90px;
+    position: absolute;
+    width: 92.6%;
+    height: 130px;
+    bottom: -380px;
+}
+
+#texto-footer {
+    margin-left: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texto-footer p {
+    font-weight: bold;
+    font-size: 18px;
+}
+#texto-footer2 {
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 500px;
+    margin-top: -140px;
+}
+#texto-footer2 p{
+    font-size: 18px;
+    font-weight: bold;
+}
+#cuadro-footer {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: -160px;
+}
+#cuadro-footer input {
+    width: 250px;
+    height: 35px;
+    border: rgb(236, 60, 69) solid;
+    outline: none;
+}
+
+#cuadro-footer button {
+    width: 255px;
+    height: 40px;
+    margin-top: 10px;
+    background: none;
+    color: white;
+    border: black solid;
+    padding: 0 auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+#redes-sociales {
+    margin-left: 975px;
+    margin-top: -40px;
+}
+#redes-sociales img {
+    width: 20px;
+    padding: 10px;
+}
+
+
+
+@keyframes encabezado {
+    0% {
+        transform: translateY(-90px);
+    }
+}
